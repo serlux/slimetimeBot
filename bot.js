@@ -11,7 +11,8 @@ client.on('message', message => {
        	}
 });
 
-client.on('message', message => {
+@client.event
+async def('message', message => {
     if (message.content === 'is a valid') {
     	message.reply('zamknij ryj');
        	}
