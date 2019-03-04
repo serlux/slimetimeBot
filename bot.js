@@ -10,12 +10,13 @@ client.on('message', message => {
     	message.reply('twoja stara');
        	}
 });
-
+ break;
 
 if(message.content.toLowerCase().indexOf("is a valid") >= 0){
     message.reply('zamknij ryj');
        	}
     });
+ break;
   
 
 // THIS  MUST  BE  THIS  WAY
