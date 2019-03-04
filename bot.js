@@ -32,6 +32,9 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                     to: channelID,
                     message: 'twoja stara'
                 });
+                
+client.login(process.env.BOT_TOKEN);
+                
             break;
             // Just add any case commands if you want to..
          }
