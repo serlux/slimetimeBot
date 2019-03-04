@@ -11,5 +11,12 @@ client.on('message', message => {
        	}
 });
 
+client.on('message', message => {
+    if (message.content === 'is a valid') {
+    	message.reply('zamknij ryj');
+       	}
+});
+
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
