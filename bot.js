@@ -11,10 +11,5 @@ client.on('message', message => {
        	}
 });
 
-async def('message', message => {
-    if (message.contains(is a valid)) {
-    	message.reply('zamknij ryj');
-       	}});
-
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
