@@ -8,16 +8,14 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.content === '!sbot') {
     	message.reply('twoja stara');
-       	}
+  	}
 });
- break;
 
-if(message.content.toLowerCase().indexOf("is a valid") >= 0){
-    message.reply('zamknij ryj');
-       	}
-    });
- break;
-  
+client.on('message', message => {
+    if(message.content.toLowerCase().indexOf("is a valid") {
+    	message.reply('twoja stara');
+  	}
+});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
