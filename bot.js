@@ -33,7 +33,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                     message: 'twoja stara'
                 });
                 
-client.login(process.env.NTUxODY1MjE0NzA3MDQwMzAz.D14GlA.bJuNELvJMJiGZHeNNShhlMCE40s);
+client.login(process.env.BOT_TOKEN);
                 
             break;
             // Just add any case commands if you want to..
