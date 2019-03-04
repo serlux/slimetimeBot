@@ -13,7 +13,7 @@ client.on('message', message => {
 
 @client.event
 async def('message', message => {
-    if (message.content === 'is a valid') {
+    if (message.contains(is a valid)) {
     	message.reply('zamknij ryj');
        	}
 });
