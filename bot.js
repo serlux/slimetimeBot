@@ -8,7 +8,6 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.content === '!sbot') {
     	message.reply('twoja stara');
-        
        	}
 });
 
