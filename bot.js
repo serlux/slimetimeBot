@@ -13,7 +13,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if(message.content.toLowerCase().indexOf("is a valid") >= 0) {
-    	message.reply('twoja stara');
+    	message.reply('zamknij ryj');
   	}
 });
 
