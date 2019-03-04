@@ -8,6 +8,9 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.content === '!sbot') {
     	message.reply('twoja stara');
+        
+        if (message.content === 'is a valid') {
+    	message.reply('zamknij ryj');
   	}
 });
 
